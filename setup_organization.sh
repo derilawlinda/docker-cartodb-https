@@ -1,5 +1,5 @@
 ORGANIZATION_NAME="zenit"
-USERNAME="admingissbd"
+USERNAME="admin4example"
 EMAIL="gissbd_admin@mailinator.com"
 PASSWORD="pass1234"
 
