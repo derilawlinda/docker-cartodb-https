@@ -19,7 +19,8 @@ service redis-server start
 cd /Windshaft-cartodb
 node app.js production &
 
-cd /CartoDB-SQL-API
+cd /CartoDB-SQL-API &
+mkdir log &
 node app.js production &
 
 cd /cartodb
