@@ -148,7 +148,7 @@ defaults: &defaults
   reports:
     mail_to: ''
   mailer:
-    from: 'CS GIS Sumba Barat Daya <support@gis-sbd.com>'
+    from: 'CS Qlue <support@qlue.id>'
     address: ''
     port: ''
     user_name: ''
