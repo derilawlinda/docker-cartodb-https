@@ -1,6 +1,6 @@
 ORGANIZATION_NAME="qlue"
 USERNAME="admin4example"
-EMAIL="gisadmin@mqlue.id"
+EMAIL="gisadmin@qlue.id"
 PASSWORD="pass1234"
 
 bundle exec rake cartodb:db:create_user EMAIL="${EMAIL}" PASSWORD="${PASSWORD}" SUBDOMAIN="${USERNAME}"
