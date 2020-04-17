@@ -114,8 +114,8 @@ RUN useradd -m -d /home/cartodb -s /bin/bash cartodb && \
   --no-install-recommends && \
   rm -rf /var/lib/apt/lists/*
 
-RUN git config --global user.email you@example.com
-RUN git config --global user.name "Your Name"
+RUN git config --global user.email deril@yahoo.com
+RUN git config --global user.name "Deril"
 
 # Varnish 3, Ubuntu:18.04 comes with Varnish 5.1 which can't be run with anonymous admin telnet
 RUN cd /opt && \
@@ -166,7 +166,8 @@ RUN git clone git://github.com/CartoDB/CartoDB-SQL-API.git && \
     cd CartoDB-SQL-API && \
     git checkout $SQLAPI_VERSION && \
     npm install -g yarn && \
-    yarn install
+    yarn install && \
+    mkdir logs
 
 # Install Windshaft
 RUN git clone git://github.com/CartoDB/Windshaft-cartodb.git && \

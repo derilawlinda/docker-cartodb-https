@@ -20,7 +20,6 @@ cd /Windshaft-cartodb
 node app.js production &
 
 cd /CartoDB-SQL-API &
-mkdir logs &
 node app.js production &
 
 cd /cartodb
